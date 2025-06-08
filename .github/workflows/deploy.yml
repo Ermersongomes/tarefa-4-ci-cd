@@ -19,7 +19,7 @@ jobs:
             echo "index.html não encontrado!"
             exit 1
           fi
-
+ 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
