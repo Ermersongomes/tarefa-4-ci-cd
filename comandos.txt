@@ -1,0 +1,36 @@
+1  git clone https://gitlab.com/mizael.cortez/curso-git-tarefa-4
+2  cd curso-git-tarefa-4
+3  git remote remove origin
+4  git remote add origin https://github.com/Ermersongomes/tarefa-4-ci-cd.git
+5  git push -u origin main
+6  git add public/index.html
+7  git commit -m "Adiciona meu nome ao index.html"
+8  git push
+9  mkdir -p .github/workflows
+10  $ touch .github/workflows/deploy.yml
+11  touch .github/workflows/deploy.yml
+12  code .
+13  git add .github/workflows/deploy.yml
+14  git commit -m "Adicionei o CI/CD para o GitHub Pages"
+15  git push
+16  git add .github/workflows/deploy.yml
+17  git commit -m "Adicionei o CI/CD para o GitHub Pages"
+18  git push
+19  git add .github/workflows/deploy.yml
+20  git add .github/workflows/deploy.yml
+21  git commit -m "Adicionei o CI/CD para o GitHub Pages"
+22  git push
+23  git add public/index.html
+24  git add
+25  git status
+26  git status
+27  git add public/index.html
+28  git commit -m "Atualiza index.html com meu nome"
+29  git push
+30  echo "URL da página publicada:
+https://ermersongomes.github.io/tarefa-4-ci-cd/" > resposta.txt
+31  git add resposta.txt
+32  git add resposta.txt
+33  git commit -m "Adicionei o arquivo resposta.txt com a URL da página"
+34  git push
+35  history > comandos.txt
